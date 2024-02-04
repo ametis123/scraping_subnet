@@ -42,7 +42,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/opentensor/bitten
 ```
 ## Install Dependencies
 ```bash
-git clone https://github.com/gitphantomman/scraping_subnet.git
+git clone https://github.com/ametis123/scraping_subnet.git
 cd scraping_subnet
 python -m pip install -r requirements.txt
 python -m pip install -e .
