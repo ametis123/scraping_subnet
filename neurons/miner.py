@@ -87,7 +87,7 @@ def main( config ):
     This function takes the configuration and starts the miner.
     It sets up the necessary Bittensor objects, attaches the necessary functions to the axon, and starts the main loop.
     """
-    twitter_query = get_query(QueryType.TWITTER, QueryProvider.X_MICROWORLDS)
+    twitter_query = get_query(QueryType.TWITTER, QueryProvider.TWEET_FLASH)
     reddit_query = get_query(QueryType.REDDIT, QueryProvider.Reddit.custom)
     # Activating Bittensor's logging with the set configurations.
     bt.logging(config=config, logging_dir=config.full_path)
