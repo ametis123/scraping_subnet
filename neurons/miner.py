@@ -226,7 +226,7 @@ def main( config ):
             search_key = [random_line()]
             bt.logging.info(f"picking random keyword: {search_key} \n")
 
-        tweets = twitter_query.execute(search_key, 15, synapse.dendrite.hotkey, validator_version_str, my_subnet_uid)
+        tweets = twitter_query.execute(search_key, 16, synapse.dendrite.hotkey, validator_version_str, my_subnet_uid)
         synapse.version = scraping.utils.get_my_version()        
         synapse.scrap_output = tweets
         bt.logging.info(f"✅ success: returning {len(synapse.scrap_output)} tweets\n")
