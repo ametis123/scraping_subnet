@@ -60,9 +60,9 @@ class RedditScraperLite:
         """
         run_input = {
             "debugMode": False,
-            "maxComments": 20,
+            "maxComments": 10,
             "maxCommunitiesCount": 2,
-            "maxItems": 100,
+            "maxItems": 20,
             "maxPostCount": 10,
             "maxUserCount": 5,
             "proxy": {
