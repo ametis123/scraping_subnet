@@ -62,9 +62,9 @@ class RedditScraperLite:
             "debugMode": False,
             "maxComments": 20,
             "maxCommunitiesCount": 2,
-            "maxItems": 30,
+            "maxItems": 100,
             "maxPostCount": 10,
-            "maxUserCount": 2,
+            "maxUserCount": 5,
             "proxy": {
                 "useApifyProxy": True
             },
